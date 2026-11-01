@@ -1,0 +1,28 @@
+# ===== 数据集（约 900MB，太大不上传，下载方式见 README）=====
+dataset/
+PCB_coco.zip
+
+# ===== 训练结果（自动生成，含大量日志/图表）=====
+runs/
+
+# ===== 检测日志（自动生成）=====
+logs/
+
+# ===== 预训练权重（训练时自动下载）=====
+yolov8n.pt
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.cache
+
+# ===== 系统 / 编辑器 =====
+.claude/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ===== 其他 =====
+*.log
